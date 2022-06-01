@@ -32,7 +32,7 @@ colorconsole.success("ColorConsole is Working!")
 # Use In Browser
 
 ```html
-<script src='https://cdn.jsdelivr.net/gh/hasinhayder/colorconsole@latest/colorconsole.js'></script>
+<script src='https://cdn.jsdelivr.net/gh/hasinhayder/colorconsole@latest/dist/colorconsole.js'></script>
 
 <script>
     colorconsole.success("ColorConsole is Working!")
