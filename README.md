@@ -1,4 +1,4 @@
-# ColorConsole
+# ColorConsole NPM Package
 
 Colorconsole provides an interesting way to display colored info, success, warning and error messages on the developer console in your browser.
 
