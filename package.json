@@ -1,0 +1,14 @@
+{
+  "name": "@hasinhayder/colorconsole",
+  "version": "1.0.0",
+  "description": "ColorConsole provides an interesting way to display colored info, success, warning and error messages on the developer console.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hasin Hayder",
+  "license": "MIT",
+  "dependencies": {
+    "dom": "^0.0.3"
+  }
+}
