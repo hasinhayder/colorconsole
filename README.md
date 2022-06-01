@@ -26,7 +26,16 @@ then
 
 ```javascript
 import colorconsole from '@hasinhayder/colorconsole'
-colorconsole.success("ColorConsole is Working!")
+
+colorconsole.success("ColorConsole is Working")
+colorconsole.log("A Simple Message, just like console.log")
+colorconsole.warning("This is a warning")
+colorconsole.info("ColorConsole is an NPM package")
+colorconsole.log("Available at https://www.npmjs.com/package/@hasinhayder/colorconsole")
+colorconsole.log("Github Repo: https://github.com/hasinhayder/colorconsole")
+colorconsole.error("Sample Error Message")
+colorconsole.log("Isn't this beautiful?")
+colorconsole.log("Check github repo url for documentation")
 ```
 
 # Use In Browser
@@ -35,6 +44,14 @@ colorconsole.success("ColorConsole is Working!")
 <script src='https://cdn.jsdelivr.net/npm/@hasinhayder/colorconsole@latest/dist/colorconsole.min.js'></script>
 
 <script>
-    colorconsole.success("ColorConsole is Working!")
+    colorconsole.success("ColorConsole is Working")
+    colorconsole.log("A Simple Message, just like console.log")
+    colorconsole.warning("This is a warning")
+    colorconsole.info("ColorConsole is an NPM package")
+    colorconsole.log("Available at https://www.npmjs.com/package/@hasinhayder/colorconsole")
+    colorconsole.log("Github Repo: https://github.com/hasinhayder/colorconsole")
+    colorconsole.error("Sample Error Message")
+    colorconsole.log("Isn't this beautiful?")
+    colorconsole.log("Check github repo url for documentation")
 </script>
 ```
