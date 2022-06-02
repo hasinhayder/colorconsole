@@ -10,6 +10,13 @@ colorconsole.success("some success message")
 colorconsole.info("some informations")
 colorconsole.error("some error message")
 colorconsole.log("normal message")
+colorconsole.custom("custom message", "red", "#fff", 20, 5)
+- custom parameters:
+    - message: string
+    - backgroundColor: name | hex | rgba | rgb | hsl
+    - textColor: name | hex | rgba | rgb | hsl
+    - fontSize: number
+    - padding: number
 ```
 
 # Use in ESM Projects
@@ -36,6 +43,7 @@ colorconsole.log("Github Repo: https://github.com/hasinhayder/colorconsole")
 colorconsole.error("Sample Error Message")
 colorconsole.log("Isn't this beautiful?")
 colorconsole.log("Check github repo url for the documentation")
+colorconsole.custom("Make your own style", "red", "#fff", 20, 5)
 ```
 
 # Use In Browser
@@ -53,5 +61,6 @@ colorconsole.log("Check github repo url for the documentation")
     colorconsole.error("Sample Error Message")
     colorconsole.log("Isn't this beautiful?")
     colorconsole.log("Check github repo url for the documentation")
+    colorconsole.custom("Make your own style", "red", "#fff", 20, 5)
 </script>
 ```
