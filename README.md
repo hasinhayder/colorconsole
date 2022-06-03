@@ -2,6 +2,8 @@
 
 Colorconsole provides an interesting way to display colored info, success, warning and error messages on the developer console in your browser.
 
+![](https://res.cloudinary.com/roxlox/image/upload/v1654246755/assorted%20/283283450_10159158088149633_6008511946195677596_n_jaajhq.jpg)
+
 ## Available Methods
 
 ```javascript
